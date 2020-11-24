@@ -16,8 +16,8 @@ public class test2 {
         System.out.println(s1 == s6);//false
         System.out.println(s1 == s6.intern());//true
         System.out.println(s2 == s2.intern());//false
-        System.out.println(s7 == s8);
-        System.out.println(s9 == s2);
-        System.out.println(s2 == s2.intern());
+        System.out.println(s7 == s8);//true
+        System.out.println(s9 == s2);//false
+        System.out.println(s2 == s2.intern());//false
     }
 }
